@@ -4,17 +4,16 @@ body{
   font-family: sans-serif;
 }
 #name1, #name2, #name3{
-  type: text;
   font-size: 24px;
 }
 #date1{
-  type: date;
+  font-size: 24px;
 }
 #password1{
-  type: password;
+  font-size: 24px;
 }
 button{
-  font-size: 20px;
+  font-size: 24px;
   background: blue;
 }
 button:hover{
