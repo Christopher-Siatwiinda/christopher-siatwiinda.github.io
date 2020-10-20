@@ -5,16 +5,16 @@ body{
 }
 #name1, #name2, #name3{
   type: text;
-  font-size: 18px;
+  font-size: 24px;
 }
 #date1{
   type: date;
 }
 #password1{
-  type: text;
+  type: password;
 }
 button{
-  font-size: 16px;
+  font-size: 20px;
   background: blue;
 }
 button:hover{
