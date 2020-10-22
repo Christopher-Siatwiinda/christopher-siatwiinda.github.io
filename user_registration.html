@@ -3,29 +3,37 @@
   <head>
     <title>USER REGISTRATION</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   </head>
   <body>
     <b>
       <h3>USER REGISTRATION</h3>
     </b>
     <form>
-      <div id = "name1">
-        <input type="text" placeholder="Username" name = "name">
+      <div id = "name1" class="form-group">
+        <label for="InputUsername">Username</label>
+        <input type="text" class="form-control" id="InputUsername" placeholder="Enter username">
       </div>
-      <div id = "name2">
-        <input type="text" placeholder="First name" name = "name">
+      <div id = "name2"class="form-group">
+        <label for="InputFirstName">First name</label>
+        <input type="text" class="form-control" id="InputFirstName" placeholder="Enter your first name">
       </div>
-      <div id = "name3">
-        <input type="text" placeholder="Last name" name = "name">
+      <div id = "name3" class="form-group">
+        <label for="InputLastName">Last name</label>
+        <input type="text" class="form-control" id="InputLastName" placeholder="Enter your last name">
       </div>
-      <div id = "password1">
-        <input type="password" placeholder="password" name = "password">
+      <div id = "password1" class="form-group">
+        <label for="InputPassword">Password</label>
+        <input type="password" class="form-control" aria-describedby="passwordHelp" placeholder="password">
+        <small id="passwordHelp" class="form-text text-muted">Your password must be at least 6-characters long</small>
       </div>
-      <div id = "date1">
-        <input type="date" placeholder="date" name = "date">
+      <div id = "date1" class="form-group">
+        <label for="InputDate">Date</label>
+        <input type="date" class="form-control" id="InputDate" placeholder="date">
       </div>
-      <div>
-        <input placeholder= "provinces" list = "provinces" name = "provinces">
+      <div class="form-group">
+        <label for="Provinces">Select province</label>
+        <input class="form-control" id="Provinces" placeholder= "province" list = "provinces">
         <datalist id="provinces">
           <option value="Southern">
           <option value="Muchinga">
@@ -41,10 +49,10 @@
       </div>
       <div>
       <div>
-        
+
       </div>
       <div>
-        <button>submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </form>
   </body>
