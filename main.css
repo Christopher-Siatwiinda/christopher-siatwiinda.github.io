@@ -1,8 +1,10 @@
 body{
   background: #566904;
   text-align: center;
+  display: inline-block;
   font-family: sans-serif;
 }
 #size{
-  width: 40%;
+  width: 30%;
+  text-align: center;
 }
